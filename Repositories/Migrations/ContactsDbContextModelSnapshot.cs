@@ -106,6 +106,9 @@ namespace Repositories.Migrations
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("IsAdmin")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime>("LastModified")
                         .HasColumnType("datetime2");
 
